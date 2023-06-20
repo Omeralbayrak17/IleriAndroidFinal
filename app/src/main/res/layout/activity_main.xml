@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.menu.MainActivity">
+
+    <TextView
+        android:id="@+id/txtListingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main_activity_text_margin_top_left"
+        android:layout_marginTop="@dimen/main_activity_text_margin_top_left"
+        android:text="@string/activity_main_fenerbahce_text"
+        android:textSize="@dimen/footballer_information_font_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFootballers"
+        android:layout_width="@dimen/footballer_information_scroll_dp"
+        android:layout_height="@dimen/footballer_information_scroll_dp"
+        android:layout_marginTop="@dimen/main_activity_button_margin_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSwitchListType" />
+
+    <Button
+        android:id="@+id/btnSwitchListType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_activity_button_margin_top"
+        android:layout_marginEnd="@dimen/main_activity_text_margin_top_left"
+        android:text="@string/activity_main_button_change_listing_text"
+        android:textSize="@dimen/main_activity_button_font_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtListingName" />
+
+    <Button
+        android:id="@+id/btnSortListing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main_activity_button_margin_start"
+        android:layout_marginTop="@dimen/main_activity_button_margin_top"
+        android:text="@string/activity_main_button_sort_text"
+        android:textSize="@dimen/main_activity_button_font_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtListingName" />
+</androidx.constraintlayout.widget.ConstraintLayout>

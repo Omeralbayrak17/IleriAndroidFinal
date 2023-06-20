@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Final</string>
+
+    <string name="got_connection">You have internet connection</string>
+
+    <string name="no_connection">You do not have internet connection</string>
+
+    <string name="activity_main_fenerbahce_text">Fenerbahçe Footballers</string>
+
+    <string name="activity_main_button_sort_text">Sort Listing</string>
+
+    <string name="activity_main_button_change_listing_text">Change List Type</string>
+
+    <string name="footballerview_footballername_text">Footballer Name</string>
+
+    <string name="footballerview_footballerinfo_text">Footballer Information</string>
+</resources>

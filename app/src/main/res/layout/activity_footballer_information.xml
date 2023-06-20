@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.footballerInformation.FootballerInformationActivity">
+
+    <ScrollView
+        android:layout_width="@dimen/footballer_information_scroll_dp"
+        android:layout_height="@dimen/footballer_information_scroll_dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/footballer_information_imageview_height_width"
+                android:layout_height="@dimen/footballer_information_imageview_height_width"
+                android:layout_marginTop="@dimen/footballer_information_imageview_margin_top"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtFootballerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/footballer_information_text_margin_top"
+                android:text="@string/footballerview_footballername_text"
+                android:textSize="@dimen/footballer_information_font_size" />
+
+            <TextView
+                android:id="@+id/txtFootballerInformation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/footballer_information_text_margin_top"
+                android:layout_marginLeft="@dimen/footballer_information_text_margin_top"
+                android:layout_marginRight="@dimen/footballer_information_text_margin_top"
+                android:text="@string/footballerview_footballerinfo_text"
+                android:textSize="@dimen/footballer_information_font_size" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

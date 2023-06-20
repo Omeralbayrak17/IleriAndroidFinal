@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="footballer_information_imageview_height_width">200dp</dimen>
+    <dimen name="footballer_information_imageview_margin_top">75dp</dimen>
+    <dimen name="footballer_information_font_size">20sp</dimen>
+    <dimen name="footballer_information_text_margin_top">50dp</dimen>
+    <dimen name="footballer_information_scroll_dp">0dp</dimen>
+    <dimen name="main_activity_text_margin_top_left">25dp</dimen>
+    <dimen name="main_activity_button_margin_start">25dp</dimen>
+    <dimen name="main_activity_button_margin_top">15dp</dimen>
+    <dimen name="main_activity_button_font_size">12sp</dimen>
+    <dimen name="footballer_information_information_font_size">16sp</dimen>
+
+    <dimen name="footballer_information_imageview_size">125dp</dimen>
+</resources>
